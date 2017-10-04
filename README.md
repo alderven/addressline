@@ -12,3 +12,9 @@ This project contains:
 1. Install following Python libs:
    * pytest: https://docs.pytest.org/en/latest/getting-started.html
    * pytest-allure-adaptor: https://pypi.python.org/pypi/pytest-allure-adaptor
+
+# How to run Addressline utility
+Execute following from Command Line:
+```javascript
+python addressline.py -a "string to convert"
+```
