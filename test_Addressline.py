@@ -16,7 +16,7 @@ def get_test_data():
 
 
 @pytest.allure.feature('Addressline')
-@pytest.allure.story('General functionality')
+@pytest.allure.story('Test Addressline')
 @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
 @pytest.mark.parametrize('test_data', get_test_data())
 def test_addressline(test_data):
