@@ -14,7 +14,7 @@ This project contains:
    * pytest-allure-adaptor: https://pypi.python.org/pypi/pytest-allure-adaptor
 
 # How to run Addressline utility
-Execute following from Command Line:
-```javascript
+Execute following in Command Line:
+```
 python addressline.py -a "string to convert"
 ```
