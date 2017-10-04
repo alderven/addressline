@@ -1,0 +1,116 @@
+{
+  "uid" : "1a90eae56b3c057b",
+  "name" : "test_addressline[test_data4]",
+  "fullName" : "test_Functionality.test_addressline[test_data4]",
+  "historyId" : "27aa2878124df35d3ec67ab4cfd63c08",
+  "time" : {
+    "start" : 1507125398440,
+    "stop" : 1507125398444,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+    "trace" : "test_data = ['Auf der Vogelwiese 23 b', 'Auf der Vogelwiese', '23 b']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nE           assert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\nE             Extra items in the left set:\nE             'Auf der Vogelwiese'\nE             '23 b'\nE             Extra items in the right set:\nE             'Auf'\nE             'b'\nE             '23'...\nE             \nE             ...Full output truncated (4 lines hidden), use '-vv' to show\n\ntest_Functionality.py:28: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+      "trace" : "test_data = ['Auf der Vogelwiese 23 b', 'Auf der Vogelwiese', '23 b']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nE           assert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\nE             Extra items in the left set:\nE             'Auf der Vogelwiese'\nE             '23 b'\nE             Extra items in the right set:\nE             'Auf'\nE             'b'\nE             '23'...\nE             \nE             ...Full output truncated (4 lines hidden), use '-vv' to show\n\ntest_Functionality.py:28: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}",
+      "time" : {
+        "start" : 1507125398441,
+        "stop" : 1507125398441,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+        "trace" : "test_data = ['Auf der Vogelwiese 23 b', 'Auf der Vogelwiese', '23 b']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nE           assert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\nE             Extra items in the left set:\nE             'Auf der Vogelwiese'\nE             '23 b'\nE             Extra items in the right set:\nE             'Auf'\nE             'b'\nE             '23'...\nE             \nE             ...Full output truncated (4 lines hidden), use '-vv' to show\n\ntest_Functionality.py:28: AssertionError",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b50d1c02466798d1",
+      "name" : "Captured stdout call",
+      "source" : "b50d1c02466798d1.txt",
+      "type" : "text/plain",
+      "size" : 94
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "General functionality"
+  }, {
+    "name" : "thread",
+    "value" : "27204-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data4]"
+  }, {
+    "name" : "package",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1a90eae56b3c057b.json",
+  "statusDetailsSafe" : {
+    "message" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+    "trace" : "test_data = ['Auf der Vogelwiese 23 b', 'Auf der Vogelwiese', '23 b']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nE           assert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\nE             Extra items in the left set:\nE             'Auf der Vogelwiese'\nE             '23 b'\nE             Extra items in the right set:\nE             'Auf'\nE             'b'\nE             '23'...\nE             \nE             ...Full output truncated (4 lines hidden), use '-vv' to show\n\ntest_Functionality.py:28: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

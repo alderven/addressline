@@ -1,0 +1,179 @@
+{
+  "ed3cc6b2190158847f8bfe9a1e41dd65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9673f8e1bbcd9937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507125398415,
+        "stop" : 1507125398416,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c25cb1d2ccb9297a06a5f6d84211cc36" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c58c9e80c739b0d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"Am BГ¤chle 23\". Expected result: {'Am BГ¤chle', '23'}. Actual result: {'Am', 'BГ¤chle', '23'}\nassert {'23', 'Am BГ¤chle'} == {'23', 'Am', 'BГ¤chle'}\n  Extra items in the left set:\n  'Am BГ¤chle'\n  Extra items in the right set:\n  'Am'\n  'BГ¤chle'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398421,
+        "stop" : 1507125398438,
+        "duration" : 17
+      }
+    } ]
+  },
+  "582785d98ddc763b27b5b7e0d04d3de7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60196f0bd5f837fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507125398418,
+        "stop" : 1507125398419,
+        "duration" : 1
+      }
+    } ]
+  },
+  "83bd15ba068f33b1705996e269be737" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4e62a955a1909be",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"200 Broadway Av\". Expected result: {'Broadway Av', '200'}. Actual result: {'Broadway', 'Av', '200'}\nassert {'200', 'Broadway Av'} == {'200', 'Av', 'Broadway'}\n  Extra items in the left set:\n  'Broadway Av'\n  Extra items in the right set:\n  'Broadway'\n  'Av'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398454,
+        "stop" : 1507125398458,
+        "duration" : 4
+      }
+    } ]
+  },
+  "5160fe122844ce7b2f5fac5d6912e2e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38461bd612547140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507125398412,
+        "stop" : 1507125398413,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1ac5513a6e092a723d384bd0a945252a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77da19aec1e0f392",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"Calle 39 No 1540\". Expected result: {'No 1540', 'Calle 39'}. Actual result: {'39', '1540', 'No', 'Calle'}\nassert {'Calle 39', 'No 1540'} == {'1540', '39', 'Calle', 'No'}\n  Extra items in the left set:\n  'No 1540'\n  'Calle 39'\n  Extra items in the right set:\n  '39'\n  '1540'\n  'No'...\n  \n  ...Full output truncated (3 lines hidden), use '-vv' to show",
+      "time" : {
+        "start" : 1507125398465,
+        "stop" : 1507125398469,
+        "duration" : 4
+      }
+    } ]
+  },
+  "ec2ff37febdb8566a6c2059af20836fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bba8fd4c6a5f647",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398448,
+        "stop" : 1507125398452,
+        "duration" : 4
+      }
+    } ]
+  },
+  "a08c2a704c318788d81ea247cf0d6db3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "813dfdefe62d947d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"Calle Aduana\". Expected result: {' 29', 'Calle Aduana'}. Actual result: {'Aduana', 'Calle'}\nassert {' 29', 'Calle Aduana'} == {'Aduana', 'Calle'}\n  Extra items in the left set:\n  ' 29'\n  'Calle Aduana'\n  Extra items in the right set:\n  'Aduana'\n  'Calle'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398460,
+        "stop" : 1507125398463,
+        "duration" : 3
+      }
+    } ]
+  },
+  "27aa2878124df35d3ec67ab4cfd63c08" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a90eae56b3c057b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+      "time" : {
+        "start" : 1507125398440,
+        "stop" : 1507125398444,
+        "duration" : 4
+      }
+    } ]
+  }
+}

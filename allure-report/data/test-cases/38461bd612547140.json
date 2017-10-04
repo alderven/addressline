@@ -1,0 +1,98 @@
+{
+  "uid" : "38461bd612547140",
+  "name" : "test_addressline[test_data0]",
+  "fullName" : "test_Functionality.test_addressline[test_data0]",
+  "historyId" : "5160fe122844ce7b2f5fac5d6912e2e7",
+  "time" : {
+    "start" : 1507125398412,
+    "stop" : 1507125398413,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Winterallee 3\". Expected result: {'Winterallee', '3'}. Actual result: {'Winterallee', '3'}",
+      "time" : {
+        "start" : 1507125398413,
+        "stop" : 1507125398413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "abcbbba9d2ea852b",
+      "name" : "Captured stdout call",
+      "source" : "abcbbba9d2ea852b.txt",
+      "type" : "text/plain",
+      "size" : 65
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "General functionality"
+  }, {
+    "name" : "thread",
+    "value" : "27204-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data0]"
+  }, {
+    "name" : "package",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38461bd612547140.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

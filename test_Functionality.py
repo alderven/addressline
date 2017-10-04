@@ -23,5 +23,6 @@ def test_addressline(test_data):
     input_str = test_data[0]
     expected_result = {test_data[1], test_data[2]}
     actual_result = addressline(input_str)
-    err_msg = 'Input string: {}. Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)
-    assert expected_result == actual_result, err_msg
+    msg = 'Input string: "{}". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)
+    with pytest.allure.step(msg):
+        assert expected_result == actual_result, msg

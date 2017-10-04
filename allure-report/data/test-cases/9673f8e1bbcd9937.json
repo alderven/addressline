@@ -1,0 +1,98 @@
+{
+  "uid" : "9673f8e1bbcd9937",
+  "name" : "test_addressline[test_data1]",
+  "fullName" : "test_Functionality.test_addressline[test_data1]",
+  "historyId" : "ed3cc6b2190158847f8bfe9a1e41dd65",
+  "time" : {
+    "start" : 1507125398415,
+    "stop" : 1507125398416,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Musterstrasse 45\". Expected result: {'Musterstrasse', '45'}. Actual result: {'Musterstrasse', '45'}",
+      "time" : {
+        "start" : 1507125398416,
+        "stop" : 1507125398416,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fc0af7f1bd4772aa",
+      "name" : "Captured stdout call",
+      "source" : "fc0af7f1bd4772aa.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "General functionality"
+  }, {
+    "name" : "thread",
+    "value" : "27204-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data1]"
+  }, {
+    "name" : "package",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9673f8e1bbcd9937.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

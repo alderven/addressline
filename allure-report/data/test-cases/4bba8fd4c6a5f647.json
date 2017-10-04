@@ -1,0 +1,116 @@
+{
+  "uid" : "4bba8fd4c6a5f647",
+  "name" : "test_addressline[test_data5]",
+  "fullName" : "test_Functionality.test_addressline[test_data5]",
+  "historyId" : "ec2ff37febdb8566a6c2059af20836fd",
+  "time" : {
+    "start" : 1507125398448,
+    "stop" : 1507125398452,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+    "trace" : "test_data = ['4', ' rue de la revolution', 'rue de la revolution']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nE           assert {' rue de la ...a revolution'} == {'4'}\nE             Extra items in the left set:\nE             'rue de la revolution'\nE             ' rue de la revolution'\nE             Extra items in the right set:\nE             '4'\nE             Use -v to get the full diff\n\ntest_Functionality.py:28: AssertionError",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+      "trace" : "test_data = ['4', ' rue de la revolution', 'rue de la revolution']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nE           assert {' rue de la ...a revolution'} == {'4'}\nE             Extra items in the left set:\nE             'rue de la revolution'\nE             ' rue de la revolution'\nE             Extra items in the right set:\nE             '4'\nE             Use -v to get the full diff\n\ntest_Functionality.py:28: AssertionError",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}",
+      "time" : {
+        "start" : 1507125398449,
+        "stop" : 1507125398449,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+        "trace" : "test_data = ['4', ' rue de la revolution', 'rue de la revolution']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nE           assert {' rue de la ...a revolution'} == {'4'}\nE             Extra items in the left set:\nE             'rue de la revolution'\nE             ' rue de la revolution'\nE             Extra items in the right set:\nE             '4'\nE             Use -v to get the full diff\n\ntest_Functionality.py:28: AssertionError",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7fd1c5d06081ee91",
+      "name" : "Captured stdout call",
+      "source" : "7fd1c5d06081ee91.txt",
+      "type" : "text/plain",
+      "size" : 38
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "General functionality"
+  }, {
+    "name" : "thread",
+    "value" : "27204-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data5]"
+  }, {
+    "name" : "package",
+    "value" : "test_Functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4bba8fd4c6a5f647.json",
+  "statusDetailsSafe" : {
+    "message" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+    "trace" : "test_data = ['4', ' rue de la revolution', 'rue de la revolution']\n\n    @pytest.allure.feature('Addressline')\n    @pytest.allure.story('General functionality')\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    @pytest.mark.parametrize('test_data', get_test_data())\n    def test_addressline(test_data):\n        input_str = test_data[0]\n        expected_result = {test_data[1], test_data[2]}\n        actual_result = addressline(input_str)\n        msg = 'Input string: \"{}\". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)\n        with pytest.allure.step(msg):\n>           assert expected_result == actual_result, msg\nE           AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nE           assert {' rue de la ...a revolution'} == {'4'}\nE             Extra items in the left set:\nE             'rue de la revolution'\nE             ' rue de la revolution'\nE             Extra items in the right set:\nE             '4'\nE             Use -v to get the full diff\n\ntest_Functionality.py:28: AssertionError",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

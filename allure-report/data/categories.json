@@ -1,0 +1,105 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_addressline[test_data5]",
+        "uid" : "4bba8fd4c6a5f647",
+        "parentUid" : "8fedb4902e415a9527020dc2d5fa8e50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398448,
+          "stop" : 1507125398452,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8fedb4902e415a9527020dc2d5fa8e50"
+    }, {
+      "name" : "AssertionError: Input string: \"Calle Aduana\". Expected result: {' 29', 'Calle Aduana'}. Actual result: {'Aduana', 'Calle'}\nassert {' 29', 'Calle Aduana'} == {'Aduana', 'Calle'}\n  Extra items in the left set:\n  ' 29'\n  'Calle Aduana'\n  Extra items in the right set:\n  'Aduana'\n  'Calle'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_addressline[test_data7]",
+        "uid" : "813dfdefe62d947d",
+        "parentUid" : "fda2f1c42da4b5746f0e932fb048ae34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398460,
+          "stop" : 1507125398463,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fda2f1c42da4b5746f0e932fb048ae34"
+    }, {
+      "name" : "AssertionError: Input string: \"Calle 39 No 1540\". Expected result: {'No 1540', 'Calle 39'}. Actual result: {'39', '1540', 'No', 'Calle'}\nassert {'Calle 39', 'No 1540'} == {'1540', '39', 'Calle', 'No'}\n  Extra items in the left set:\n  'No 1540'\n  'Calle 39'\n  Extra items in the right set:\n  '39'\n  '1540'\n  'No'...\n  \n  ...Full output truncated (3 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_addressline[test_data8]",
+        "uid" : "77da19aec1e0f392",
+        "parentUid" : "ec60ebb9df39008a5814e09ec6894158",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398465,
+          "stop" : 1507125398469,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec60ebb9df39008a5814e09ec6894158"
+    }, {
+      "name" : "AssertionError: Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf', '23', 'b', 'Vogelwiese', 'der'}\nassert {'23 b', 'Auf der Vogelwiese'} == {'23', 'Auf', ...', 'b', 'der'}\n  Extra items in the left set:\n  'Auf der Vogelwiese'\n  '23 b'\n  Extra items in the right set:\n  'Auf'\n  'b'\n  '23'...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+      "children" : [ {
+        "name" : "test_addressline[test_data4]",
+        "uid" : "1a90eae56b3c057b",
+        "parentUid" : "64cd3cbfbf17aa343b99c57d69f0db8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398440,
+          "stop" : 1507125398444,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64cd3cbfbf17aa343b99c57d69f0db8a"
+    }, {
+      "name" : "AssertionError: Input string: \"Am BГ¤chle 23\". Expected result: {'Am BГ¤chle', '23'}. Actual result: {'Am', 'BГ¤chle', '23'}\nassert {'23', 'Am BГ¤chle'} == {'23', 'Am', 'BГ¤chle'}\n  Extra items in the left set:\n  'Am BГ¤chle'\n  Extra items in the right set:\n  'Am'\n  'BГ¤chle'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_addressline[test_data3]",
+        "uid" : "1c58c9e80c739b0d",
+        "parentUid" : "8f885078a3660a2bd8d3c2356f713830",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398421,
+          "stop" : 1507125398438,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f885078a3660a2bd8d3c2356f713830"
+    }, {
+      "name" : "AssertionError: Input string: \"200 Broadway Av\". Expected result: {'Broadway Av', '200'}. Actual result: {'Broadway', 'Av', '200'}\nassert {'200', 'Broadway Av'} == {'200', 'Av', 'Broadway'}\n  Extra items in the left set:\n  'Broadway Av'\n  Extra items in the right set:\n  'Broadway'\n  'Av'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_addressline[test_data6]",
+        "uid" : "f4e62a955a1909be",
+        "parentUid" : "4e66eba0142e6ffdb2109c2251ae5699",
+        "status" : "failed",
+        "time" : {
+          "start" : 1507125398454,
+          "stop" : 1507125398458,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e66eba0142e6ffdb2109c2251ae5699"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
