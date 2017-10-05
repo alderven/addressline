@@ -3,7 +3,7 @@ import pytest
 import csv
 from addressline import addressline
 
-test_data_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'testData.txt')
+test_data_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'testData.csv')
 
 
 def get_test_data():
