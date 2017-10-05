@@ -1,4 +1,140 @@
 {
+  "582785d98ddc763b27b5b7e0d04d3de7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60196f0bd5f837fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507125398418,
+        "stop" : 1507125398419,
+        "duration" : 1
+      }
+    } ]
+  },
+  "83bd15ba068f33b1705996e269be737" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4e62a955a1909be",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"200 Broadway Av\". Expected result: {'Broadway Av', '200'}. Actual result: {'Broadway', 'Av', '200'}\nassert {'200', 'Broadway Av'} == {'200', 'Av', 'Broadway'}\n  Extra items in the left set:\n  'Broadway Av'\n  Extra items in the right set:\n  'Broadway'\n  'Av'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398454,
+        "stop" : 1507125398458,
+        "duration" : 4
+      }
+    } ]
+  },
+  "ec2ff37febdb8566a6c2059af20836fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bba8fd4c6a5f647",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398448,
+        "stop" : 1507125398452,
+        "duration" : 4
+      }
+    } ]
+  },
+  "a08c2a704c318788d81ea247cf0d6db3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "813dfdefe62d947d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Input string: \"Calle Aduana\". Expected result: {' 29', 'Calle Aduana'}. Actual result: {'Aduana', 'Calle'}\nassert {' 29', 'Calle Aduana'} == {'Aduana', 'Calle'}\n  Extra items in the left set:\n  ' 29'\n  'Calle Aduana'\n  Extra items in the right set:\n  'Aduana'\n  'Calle'\n  Use -v to get the full diff",
+      "time" : {
+        "start" : 1507125398460,
+        "stop" : 1507125398463,
+        "duration" : 3
+      }
+    } ]
+  },
+  "8de6b331c522df5d5632086846a1d6ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50d6b7e41117fb5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332047,
+        "stop" : 1507186332048,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e29e7fa76fa0a12f5cc8d2846b00453e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3759db9b22c13c10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332052,
+        "stop" : 1507186332054,
+        "duration" : 2
+      }
+    } ]
+  },
+  "53908ce490174512b7c42f3988a29dfb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f658cb06dc2febb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332069,
+        "stop" : 1507186332070,
+        "duration" : 1
+      }
+    } ]
+  },
   "ed3cc6b2190158847f8bfe9a1e41dd65" : {
     "statistic" : {
       "failed" : 0,
@@ -38,7 +174,7 @@
       }
     } ]
   },
-  "582785d98ddc763b27b5b7e0d04d3de7" : {
+  "1a8fd4967ac39b19ad87cf1a46e8a246" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -48,32 +184,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60196f0bd5f837fc",
+      "uid" : "b3d1c2720cced53e",
       "status" : "passed",
       "time" : {
-        "start" : 1507125398418,
-        "stop" : 1507125398419,
-        "duration" : 1
-      }
-    } ]
-  },
-  "83bd15ba068f33b1705996e269be737" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f4e62a955a1909be",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Input string: \"200 Broadway Av\". Expected result: {'Broadway Av', '200'}. Actual result: {'Broadway', 'Av', '200'}\nassert {'200', 'Broadway Av'} == {'200', 'Av', 'Broadway'}\n  Extra items in the left set:\n  'Broadway Av'\n  Extra items in the right set:\n  'Broadway'\n  'Av'\n  Use -v to get the full diff",
-      "time" : {
-        "start" : 1507125398454,
-        "stop" : 1507125398458,
-        "duration" : 4
+        "start" : 1507186332057,
+        "stop" : 1507186332059,
+        "duration" : 2
       }
     } ]
   },
@@ -116,43 +232,98 @@
       }
     } ]
   },
-  "ec2ff37febdb8566a6c2059af20836fd" : {
+  "f6a85e62ec464f6a4700c9d2fbf61931" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bba8fd4c6a5f647",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Input string: \"4\". Expected result: {'rue de la revolution', ' rue de la revolution'}. Actual result: {'4'}\nassert {' rue de la ...a revolution'} == {'4'}\n  Extra items in the left set:\n  'rue de la revolution'\n  ' rue de la revolution'\n  Extra items in the right set:\n  '4'\n  Use -v to get the full diff",
+      "uid" : "fcf47e4649c81089",
+      "status" : "passed",
       "time" : {
-        "start" : 1507125398448,
-        "stop" : 1507125398452,
-        "duration" : 4
+        "start" : 1507186332074,
+        "stop" : 1507186332075,
+        "duration" : 1
       }
     } ]
   },
-  "a08c2a704c318788d81ea247cf0d6db3" : {
+  "ed55805800ce873d76ca16851e07c6ac" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "813dfdefe62d947d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: Input string: \"Calle Aduana\". Expected result: {' 29', 'Calle Aduana'}. Actual result: {'Aduana', 'Calle'}\nassert {' 29', 'Calle Aduana'} == {'Aduana', 'Calle'}\n  Extra items in the left set:\n  ' 29'\n  'Calle Aduana'\n  Extra items in the right set:\n  'Aduana'\n  'Calle'\n  Use -v to get the full diff",
+      "uid" : "d2f75b0461f9a96f",
+      "status" : "passed",
       "time" : {
-        "start" : 1507125398460,
-        "stop" : 1507125398463,
-        "duration" : 3
+        "start" : 1507186332078,
+        "stop" : 1507186332080,
+        "duration" : 2
+      }
+    } ]
+  },
+  "43a066db4dedbc187990e6107d112c63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "519bb7440b658cca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332063,
+        "stop" : 1507186332064,
+        "duration" : 1
+      }
+    } ]
+  },
+  "30d6b11f44f3ad0664f1cb29ec77c945" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fca55b485706049",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332041,
+        "stop" : 1507186332043,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e658932dc394d5cff9ed5b9637a614" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e621fbfce4579ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1507186332035,
+        "stop" : 1507186332037,
+        "duration" : 2
       }
     } ]
   },

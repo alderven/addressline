@@ -1,90 +1,90 @@
 [ {
-  "uid" : "1c58c9e80c739b0d",
+  "uid" : "3759db9b22c13c10",
   "name" : "test_addressline[test_data3]",
   "time" : {
-    "start" : 1507125398421,
-    "stop" : 1507125398438,
-    "duration" : 17
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "77da19aec1e0f392",
-  "name" : "test_addressline[test_data8]",
-  "time" : {
-    "start" : 1507125398465,
-    "stop" : 1507125398469,
-    "duration" : 4
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "4bba8fd4c6a5f647",
-  "name" : "test_addressline[test_data5]",
-  "time" : {
-    "start" : 1507125398448,
-    "stop" : 1507125398452,
-    "duration" : 4
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "38461bd612547140",
-  "name" : "test_addressline[test_data0]",
-  "time" : {
-    "start" : 1507125398412,
-    "stop" : 1507125398413,
-    "duration" : 1
+    "start" : 1507186332052,
+    "stop" : 1507186332054,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "813dfdefe62d947d",
-  "name" : "test_addressline[test_data7]",
-  "time" : {
-    "start" : 1507125398460,
-    "stop" : 1507125398463,
-    "duration" : 3
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "1a90eae56b3c057b",
-  "name" : "test_addressline[test_data4]",
-  "time" : {
-    "start" : 1507125398440,
-    "stop" : 1507125398444,
-    "duration" : 4
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "f4e62a955a1909be",
+  "uid" : "f658cb06dc2febb2",
   "name" : "test_addressline[test_data6]",
   "time" : {
-    "start" : 1507125398454,
-    "stop" : 1507125398458,
-    "duration" : 4
-  },
-  "status" : "failed",
-  "severity" : "blocker"
-}, {
-  "uid" : "60196f0bd5f837fc",
-  "name" : "test_addressline[test_data2]",
-  "time" : {
-    "start" : 1507125398418,
-    "stop" : 1507125398419,
+    "start" : 1507186332069,
+    "stop" : 1507186332070,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "9673f8e1bbcd9937",
+  "uid" : "b3d1c2720cced53e",
+  "name" : "test_addressline[test_data4]",
+  "time" : {
+    "start" : 1507186332057,
+    "stop" : 1507186332059,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fcf47e4649c81089",
+  "name" : "test_addressline[test_data7]",
+  "time" : {
+    "start" : 1507186332074,
+    "stop" : 1507186332075,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "519bb7440b658cca",
+  "name" : "test_addressline[test_data5]",
+  "time" : {
+    "start" : 1507186332063,
+    "stop" : 1507186332064,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3fca55b485706049",
   "name" : "test_addressline[test_data1]",
   "time" : {
-    "start" : 1507125398415,
-    "stop" : 1507125398416,
+    "start" : 1507186332041,
+    "stop" : 1507186332043,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d2f75b0461f9a96f",
+  "name" : "test_addressline[test_data8]",
+  "time" : {
+    "start" : 1507186332078,
+    "stop" : 1507186332080,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "50d6b7e41117fb5c",
+  "name" : "test_addressline[test_data2]",
+  "time" : {
+    "start" : 1507186332047,
+    "stop" : 1507186332048,
     "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8e621fbfce4579ff",
+  "name" : "test_addressline[test_data0]",
+  "time" : {
+    "start" : 1507186332035,
+    "stop" : 1507186332037,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "blocker"

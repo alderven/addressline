@@ -1,12 +1,12 @@
 {
-  "uid" : "38461bd612547140",
-  "name" : "test_addressline[test_data0]",
-  "fullName" : "test_Functionality.test_addressline[test_data0]",
-  "historyId" : "5160fe122844ce7b2f5fac5d6912e2e7",
+  "uid" : "b3d1c2720cced53e",
+  "name" : "test_addressline[test_data4]",
+  "fullName" : "test_Addressline.test_addressline[test_data4]",
+  "historyId" : "1a8fd4967ac39b19ad87cf1a46e8a246",
   "time" : {
-    "start" : 1507125398412,
-    "stop" : 1507125398413,
-    "duration" : 1
+    "start" : 1507186332057,
+    "stop" : 1507186332059,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,33 +18,33 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input string: \"Winterallee 3\". Expected result: {'Winterallee', '3'}. Actual result: {'Winterallee', '3'}",
+      "name" : "Input string: \"Auf der Vogelwiese 23 b\". Expected result: {'Auf der Vogelwiese', '23 b'}. Actual result: {'Auf der Vogelwiese', '23 b'}",
       "time" : {
-        "start" : 1507125398413,
-        "stop" : 1507125398413,
+        "start" : 1507186332058,
+        "stop" : 1507186332058,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "abcbbba9d2ea852b",
+      "uid" : "e71fdc14866b9412",
       "name" : "Captured stdout call",
-      "source" : "abcbbba9d2ea852b.txt",
+      "source" : "e71fdc14866b9412.txt",
       "type" : "text/plain",
-      "size" : 65
+      "size" : 79
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -58,22 +58,22 @@
     "value" : "blocker"
   }, {
     "name" : "story",
-    "value" : "General functionality"
+    "value" : "Test Addressline"
   }, {
     "name" : "thread",
-    "value" : "27204-MainThread"
+    "value" : "24172-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "testClass",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "testMethod",
-    "value" : "test_addressline[test_data0]"
+    "value" : "test_addressline[test_data4]"
   }, {
     "name" : "package",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -87,7 +87,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "38461bd612547140.json",
+  "source" : "b3d1c2720cced53e.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

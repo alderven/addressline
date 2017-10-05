@@ -1,0 +1,98 @@
+{
+  "uid" : "3759db9b22c13c10",
+  "name" : "test_addressline[test_data3]",
+  "fullName" : "test_Addressline.test_addressline[test_data3]",
+  "historyId" : "e29e7fa76fa0a12f5cc8d2846b00453e",
+  "time" : {
+    "start" : 1507186332052,
+    "stop" : 1507186332054,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Am BГ¤chle 23\". Expected result: {'Am BГ¤chle', '23'}. Actual result: {'Am BГ¤chle', '23'}",
+      "time" : {
+        "start" : 1507186332053,
+        "stop" : 1507186332053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fa97b14ce5becbe4",
+      "name" : "Captured stdout call",
+      "source" : "fa97b14ce5becbe4.txt",
+      "type" : "text/plain",
+      "size" : 63
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Test Addressline"
+  }, {
+    "name" : "thread",
+    "value" : "24172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data3]"
+  }, {
+    "name" : "package",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3759db9b22c13c10.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

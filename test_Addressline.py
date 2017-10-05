@@ -9,7 +9,7 @@ test_data_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'testD
 def get_test_data():
     result = []
     with open(test_data_file, 'r') as f:
-        data = csv.reader(f, delimiter=',')
+        data = csv.reader(f, delimiter=';')
         for row in data:
             result.append([row[0], row[1], row[2]])
     return result

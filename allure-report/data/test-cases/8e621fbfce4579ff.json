@@ -1,0 +1,98 @@
+{
+  "uid" : "8e621fbfce4579ff",
+  "name" : "test_addressline[test_data0]",
+  "fullName" : "test_Addressline.test_addressline[test_data0]",
+  "historyId" : "e658932dc394d5cff9ed5b9637a614",
+  "time" : {
+    "start" : 1507186332035,
+    "stop" : 1507186332037,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Winterallee 3\". Expected result: {'3', 'Winterallee'}. Actual result: {'3', 'Winterallee'}",
+      "time" : {
+        "start" : 1507186332037,
+        "stop" : 1507186332037,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "483c3f26d08e37c5",
+      "name" : "Captured stdout call",
+      "source" : "483c3f26d08e37c5.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Test Addressline"
+  }, {
+    "name" : "thread",
+    "value" : "24172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data0]"
+  }, {
+    "name" : "package",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e621fbfce4579ff.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

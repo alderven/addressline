@@ -1,0 +1,98 @@
+{
+  "uid" : "3fca55b485706049",
+  "name" : "test_addressline[test_data1]",
+  "fullName" : "test_Addressline.test_addressline[test_data1]",
+  "historyId" : "30d6b11f44f3ad0664f1cb29ec77c945",
+  "time" : {
+    "start" : 1507186332041,
+    "stop" : 1507186332043,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Musterstrasse 45\". Expected result: {'45', 'Musterstrasse'}. Actual result: {'45', 'Musterstrasse'}",
+      "time" : {
+        "start" : 1507186332042,
+        "stop" : 1507186332042,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a95f10e76469768b",
+      "name" : "Captured stdout call",
+      "source" : "a95f10e76469768b.txt",
+      "type" : "text/plain",
+      "size" : 65
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Test Addressline"
+  }, {
+    "name" : "thread",
+    "value" : "24172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data1]"
+  }, {
+    "name" : "package",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fca55b485706049.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

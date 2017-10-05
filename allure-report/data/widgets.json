@@ -3,39 +3,48 @@
     "reportName" : "Allure Report",
     "testRuns" : [ ],
     "statistic" : {
-      "failed" : 6,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 9,
       "unknown" : 0,
       "total" : 9
     },
     "time" : {
-      "start" : 1507125398412,
-      "stop" : 1507125398469,
-      "duration" : 57,
+      "start" : 1507186332035,
+      "stop" : 1507186332080,
+      "duration" : 45,
       "minDuration" : 1,
-      "maxDuration" : 17,
-      "sumDuration" : 39
+      "maxDuration" : 2,
+      "sumDuration" : 14
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 1,
     "items" : [ {
-      "uid" : "692d3fad37eba7b6c8c276660e8d310d",
-      "name" : "test_Functionality",
+      "uid" : "ef960c2fd158850b1300e7a1e12f1733",
+      "name" : "test_Addressline",
       "statistic" : {
-        "failed" : 6,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 9,
         "unknown" : 0,
         "total" : 9
       }
     } ]
   },
   "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "statistic" : {
       "failed" : 6,
       "broken" : 0,
@@ -51,10 +60,10 @@
       "uid" : "8ee8b8579a6ec0fa347c11a2840e34c8",
       "name" : "Addressline",
       "statistic" : {
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
         "total" : 1
       }
@@ -62,19 +71,8 @@
   },
   "executors" : [ ],
   "categories" : {
-    "total" : 1,
-    "items" : [ {
-      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
-      "name" : "Product defects",
-      "statistic" : {
-        "failed" : 6,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 6
-      }
-    } ]
+    "total" : 0,
+    "items" : [ ]
   },
   "launches" : [ ]
 }

@@ -1,0 +1,98 @@
+{
+  "uid" : "fcf47e4649c81089",
+  "name" : "test_addressline[test_data7]",
+  "fullName" : "test_Addressline.test_addressline[test_data7]",
+  "historyId" : "f6a85e62ec464f6a4700c9d2fbf61931",
+  "time" : {
+    "start" : 1507186332074,
+    "stop" : 1507186332075,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input string: \"Calle Aduana, 29\". Expected result: {'29', 'Calle Aduana'}. Actual result: {'29', 'Calle Aduana'}",
+      "time" : {
+        "start" : 1507186332074,
+        "stop" : 1507186332074,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "df70aa289f09a867",
+      "name" : "Captured stdout call",
+      "source" : "df70aa289f09a867.txt",
+      "type" : "text/plain",
+      "size" : 64
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Addressline"
+  }, {
+    "name" : "host",
+    "value" : "AANANYEV-PC"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Test Addressline"
+  }, {
+    "name" : "thread",
+    "value" : "24172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testClass",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_addressline[test_data7]"
+  }, {
+    "name" : "package",
+    "value" : "test_Addressline"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcf47e4649c81089.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,12 +1,12 @@
 {
-  "uid" : "60196f0bd5f837fc",
-  "name" : "test_addressline[test_data2]",
-  "fullName" : "test_Functionality.test_addressline[test_data2]",
-  "historyId" : "582785d98ddc763b27b5b7e0d04d3de7",
+  "uid" : "d2f75b0461f9a96f",
+  "name" : "test_addressline[test_data8]",
+  "fullName" : "test_Addressline.test_addressline[test_data8]",
+  "historyId" : "ed55805800ce873d76ca16851e07c6ac",
   "time" : {
-    "start" : 1507125398418,
-    "stop" : 1507125398419,
-    "duration" : 1
+    "start" : 1507186332078,
+    "stop" : 1507186332080,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,33 +18,33 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input string: \"Blaufeldweg 123B\". Expected result: {'Blaufeldweg', '123B'}. Actual result: {'Blaufeldweg', '123B'}",
+      "name" : "Input string: \"Calle 39 No 1540\". Expected result: {'No 1540', 'Calle 39'}. Actual result: {'No 1540', 'Calle 39'}",
       "time" : {
-        "start" : 1507125398419,
-        "stop" : 1507125398419,
+        "start" : 1507186332079,
+        "stop" : 1507186332079,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0,
+      "hasContent" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "a87139b18a48bef1",
+      "uid" : "28344db88b900a81",
       "name" : "Captured stdout call",
-      "source" : "a87139b18a48bef1.txt",
+      "source" : "28344db88b900a81.txt",
       "type" : "text/plain",
-      "size" : 71
+      "size" : 65
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 1,
+    "hasContent" : true,
     "stepsCount" : 1,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -58,22 +58,22 @@
     "value" : "blocker"
   }, {
     "name" : "story",
-    "value" : "General functionality"
+    "value" : "Test Addressline"
   }, {
     "name" : "thread",
-    "value" : "27204-MainThread"
+    "value" : "24172-MainThread"
   }, {
     "name" : "suite",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "testClass",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "testMethod",
-    "value" : "test_addressline[test_data2]"
+    "value" : "test_addressline[test_data8]"
   }, {
     "name" : "package",
-    "value" : "test_Functionality"
+    "value" : "test_Addressline"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -87,7 +87,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "60196f0bd5f837fc.json",
+  "source" : "d2f75b0461f9a96f.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

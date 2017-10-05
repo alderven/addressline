@@ -1,1 +1,0 @@
-Addressline converted: "Auf der Vogelwiese 23 b" -> "{'Auf', '23', 'b', 'Vogelwiese', 'der'}"
