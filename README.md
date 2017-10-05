@@ -1,7 +1,7 @@
 # Description
 This project contains:
 * [Addressline converter utility](https://github.com/alderven/addressline/blob/master/addressline.py)
-* [Test case](https://github.com/alderven/addressline/blob/master/test_Addressline.py)
+* [Test cases](https://github.com/alderven/addressline/blob/master/test_Addressline.py)
 * [Allure Test Report](https://rawgit.com/alderven/addressline/master/allure-report/index.html)
 
 # How to install
@@ -30,3 +30,17 @@ Execute following line in CMD in the project folder:
 ```
 allure serve /full/path/to/report/folder
 ```
+
+# Test Cases description and run result
+
+№  | Test scenario | Result
+-- | ----------------------- | ---------- |
+1  | Convert "Winterallee 3" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/7b9059918dae87e9/) |
+1  | Convert "Musterstrasse 45" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/616efa3ad9e3f564/) |
+1  | Convert "Blaufeldweg 123B" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/10630e181b2bd81/) |
+1  | Convert "Am Bächle 23" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/af9f88d694a64969/) |
+1  | Convert "Auf der Vogelwiese 23 b" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/3939eebf0edacc/) |
+1  | Convert "4, rue de la revolution" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/2c0fc1011db2224d/) |
+1  | Convert "200 Broadway Av" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/838a0ac58e10e217/) |
+1  | Convert "Calle Aduana, 29" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/809a10372a4b4a8a/) |
+1  | Convert "Calle 39 No 1540" | [Passed](https://rawgit.com/alderven/addressline/master/allure-report/index.html#behaviors/8e0b0249ce25345e94bf58b5320969c6/bcaaa7a866a04aa2/) |
