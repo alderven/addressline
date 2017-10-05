@@ -1,7 +1,7 @@
 # Description
 This project contains:
 * [Addressline converter utility](https://github.com/alderven/addressline/blob/master/addressline.py)
-* [Test cases](https://github.com/alderven/addressline/blob/master/test_Addressline.py)
+* [Test case](https://github.com/alderven/addressline/blob/master/test_Addressline.py)
 * [Allure Test Report](https://rawgit.com/alderven/addressline/master/allure-report/index.html)
 
 # How to install
@@ -22,11 +22,11 @@ python addressline.py -a "string to convert"
 # How to run tests
 Execute following line in CMD in the project folder:
 ```
-python -m pytest --alluredir /report/path/
+python -m pytest --alluredir /full/path/to/report/folder
 ```
 
 # How to generate Allure report
 Execute following line in CMD in the project folder:
 ```
-allure serve /report/path/
+allure serve /full/path/to/report/folder
 ```
