@@ -14,7 +14,19 @@ This project contains:
    * pytest-allure-adaptor: https://pypi.python.org/pypi/pytest-allure-adaptor
 
 # How to run Addressline utility
-Execute following in Command Line:
+Execute following line in CMD in the project folder:
 ```
 python addressline.py -a "string to convert"
+```
+
+# How to run tests
+Execute following line in CMD in the project folder:
+```
+python -m pytest --alluredir /report/path/
+```
+
+# How to generate Allure report
+Execute following line in CMD in the project folder:
+```
+allure serve /report/path/
 ```
