@@ -11,12 +11,12 @@
       "total" : 9
     },
     "time" : {
-      "start" : 1507186332035,
-      "stop" : 1507186332080,
-      "duration" : 45,
+      "start" : 1507187031279,
+      "stop" : 1507187031310,
+      "duration" : 31,
       "minDuration" : 1,
       "maxDuration" : 2,
-      "sumDuration" : 14
+      "sumDuration" : 12
     }
   },
   "environment" : [ ],
@@ -36,6 +36,15 @@
     } ]
   },
   "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,12 +1,12 @@
 {
-  "uid" : "8e621fbfce4579ff",
-  "name" : "test_addressline[test_data0]",
-  "fullName" : "test_Addressline.test_addressline[test_data0]",
-  "historyId" : "e658932dc394d5cff9ed5b9637a614",
+  "uid" : "90b34bd690a298bf",
+  "name" : "test_addressline[test_data3]",
+  "fullName" : "test_Addressline.test_addressline[test_data3]",
+  "historyId" : "e29e7fa76fa0a12f5cc8d2846b00453e",
   "time" : {
-    "start" : 1507186332035,
-    "stop" : 1507186332037,
-    "duration" : 2
+    "start" : 1507187031289,
+    "stop" : 1507187031290,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,33 +18,33 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input string: \"Winterallee 3\". Expected result: {'3', 'Winterallee'}. Actual result: {'3', 'Winterallee'}",
+      "name" : "Input string: \"Am BГ¤chle 23\". Expected result: ['Am BГ¤chle', '23']. Actual result: ['Am BГ¤chle', '23']",
       "time" : {
-        "start" : 1507186332037,
-        "stop" : 1507186332037,
+        "start" : 1507187031290,
+        "stop" : 1507187031290,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "483c3f26d08e37c5",
+      "uid" : "c31008cc33f96193",
       "name" : "Captured stdout call",
-      "source" : "483c3f26d08e37c5.txt",
+      "source" : "c31008cc33f96193.txt",
       "type" : "text/plain",
-      "size" : 59
+      "size" : 63
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -61,7 +61,7 @@
     "value" : "Test Addressline"
   }, {
     "name" : "thread",
-    "value" : "24172-MainThread"
+    "value" : "31952-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_Addressline"
@@ -70,7 +70,7 @@
     "value" : "test_Addressline"
   }, {
     "name" : "testMethod",
-    "value" : "test_addressline[test_data0]"
+    "value" : "test_addressline[test_data3]"
   }, {
     "name" : "package",
     "value" : "test_Addressline"
@@ -85,9 +85,28 @@
     "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3759db9b22c13c10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1507186332052,
+          "stop" : 1507186332054,
+          "duration" : 2
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "8e621fbfce4579ff.json",
+  "source" : "90b34bd690a298bf.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

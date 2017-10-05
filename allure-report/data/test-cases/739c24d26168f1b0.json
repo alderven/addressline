@@ -1,11 +1,11 @@
 {
-  "uid" : "3759db9b22c13c10",
-  "name" : "test_addressline[test_data3]",
-  "fullName" : "test_Addressline.test_addressline[test_data3]",
-  "historyId" : "e29e7fa76fa0a12f5cc8d2846b00453e",
+  "uid" : "739c24d26168f1b0",
+  "name" : "test_addressline[test_data0]",
+  "fullName" : "test_Addressline.test_addressline[test_data0]",
+  "historyId" : "e658932dc394d5cff9ed5b9637a614",
   "time" : {
-    "start" : 1507186332052,
-    "stop" : 1507186332054,
+    "start" : 1507187031279,
+    "stop" : 1507187031281,
     "duration" : 2
   },
   "description" : "",
@@ -18,33 +18,33 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input string: \"Am BГ¤chle 23\". Expected result: {'Am BГ¤chle', '23'}. Actual result: {'Am BГ¤chle', '23'}",
+      "name" : "Input string: \"Winterallee 3\". Expected result: ['Winterallee', '3']. Actual result: ['Winterallee', '3']",
       "time" : {
-        "start" : 1507186332053,
-        "stop" : 1507186332053,
+        "start" : 1507187031281,
+        "stop" : 1507187031281,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "fa97b14ce5becbe4",
+      "uid" : "a89b255d336697b2",
       "name" : "Captured stdout call",
-      "source" : "fa97b14ce5becbe4.txt",
+      "source" : "a89b255d336697b2.txt",
       "type" : "text/plain",
-      "size" : 63
+      "size" : 59
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -61,7 +61,7 @@
     "value" : "Test Addressline"
   }, {
     "name" : "thread",
-    "value" : "24172-MainThread"
+    "value" : "31952-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_Addressline"
@@ -70,7 +70,7 @@
     "value" : "test_Addressline"
   }, {
     "name" : "testMethod",
-    "value" : "test_addressline[test_data3]"
+    "value" : "test_addressline[test_data0]"
   }, {
     "name" : "package",
     "value" : "test_Addressline"
@@ -85,9 +85,28 @@
     "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8e621fbfce4579ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1507186332035,
+          "stop" : 1507186332037,
+          "duration" : 2
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "3759db9b22c13c10.json",
+  "source" : "739c24d26168f1b0.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

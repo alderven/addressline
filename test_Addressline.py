@@ -21,7 +21,7 @@ def get_test_data():
 @pytest.mark.parametrize('test_data', get_test_data())
 def test_addressline(test_data):
     input_str = test_data[0]
-    expected_result = {test_data[1], test_data[2]}
+    expected_result = [test_data[1], test_data[2]]
     actual_result = addressline(input_str)
     msg = 'Input string: "{}". Expected result: {}. Actual result: {}'.format(input_str, expected_result, actual_result)
     with pytest.allure.step(msg):

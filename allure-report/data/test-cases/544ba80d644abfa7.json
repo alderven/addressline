@@ -1,12 +1,12 @@
 {
-  "uid" : "f658cb06dc2febb2",
-  "name" : "test_addressline[test_data6]",
-  "fullName" : "test_Addressline.test_addressline[test_data6]",
-  "historyId" : "53908ce490174512b7c42f3988a29dfb",
+  "uid" : "544ba80d644abfa7",
+  "name" : "test_addressline[test_data1]",
+  "fullName" : "test_Addressline.test_addressline[test_data1]",
+  "historyId" : "30d6b11f44f3ad0664f1cb29ec77c945",
   "time" : {
-    "start" : 1507186332069,
-    "stop" : 1507186332070,
-    "duration" : 1
+    "start" : 1507187031283,
+    "stop" : 1507187031285,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,33 +18,33 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Input string: \"200 Broadway Av\". Expected result: {'Broadway Av', '200'}. Actual result: {'Broadway Av', '200'}",
+      "name" : "Input string: \"Musterstrasse 45\". Expected result: ['Musterstrasse', '45']. Actual result: ['Musterstrasse', '45']",
       "time" : {
-        "start" : 1507186332070,
-        "stop" : 1507186332070,
+        "start" : 1507187031284,
+        "stop" : 1507187031284,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "3b32a934ee0d6626",
+      "uid" : "e05b6f6a15f5f56c",
       "name" : "Captured stdout call",
-      "source" : "3b32a934ee0d6626.txt",
+      "source" : "e05b6f6a15f5f56c.txt",
       "type" : "text/plain",
-      "size" : 63
+      "size" : 65
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 1,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -61,7 +61,7 @@
     "value" : "Test Addressline"
   }, {
     "name" : "thread",
-    "value" : "24172-MainThread"
+    "value" : "31952-MainThread"
   }, {
     "name" : "suite",
     "value" : "test_Addressline"
@@ -70,7 +70,7 @@
     "value" : "test_Addressline"
   }, {
     "name" : "testMethod",
-    "value" : "test_addressline[test_data6]"
+    "value" : "test_addressline[test_data1]"
   }, {
     "name" : "package",
     "value" : "test_Addressline"
@@ -85,9 +85,28 @@
     "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3fca55b485706049",
+        "status" : "passed",
+        "time" : {
+          "start" : 1507186332041,
+          "stop" : 1507186332043,
+          "duration" : 2
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "f658cb06dc2febb2.json",
+  "source" : "544ba80d644abfa7.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

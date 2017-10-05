@@ -19,7 +19,7 @@ def addressline(input_str):
             continue
 
     print('Addressline converted: "{}" -> "{}, {}"'.format(input_str, output[0], output[1]))
-    return set(output)
+    return output
 
 
 if __name__ == '__main__':
