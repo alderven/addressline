@@ -18,6 +18,15 @@
   }
 }, {
   "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 9
+  }
+}, {
+  "statistic" : {
     "failed" : 6,
     "broken" : 0,
     "skipped" : 0,

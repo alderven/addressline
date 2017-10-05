@@ -11,9 +11,9 @@
       "total" : 9
     },
     "time" : {
-      "start" : 1507187031279,
-      "stop" : 1507187031310,
-      "duration" : 31,
+      "start" : 1507187493660,
+      "stop" : 1507187493688,
+      "duration" : 28,
       "minDuration" : 1,
       "maxDuration" : 2,
       "sumDuration" : 12
@@ -36,6 +36,15 @@
     } ]
   },
   "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
